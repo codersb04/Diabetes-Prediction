@@ -1,6 +1,7 @@
 # Diabetes-Prediction
 ## Task:
-Predicting whether the person is diabetic or non-diabetic
+Predicting whether the person is diabetic or non-diabetic.</br>
+This problem comes under <b>Supervised Learning</b> as we have provided labelled data. Support Vector Machine(SVM) would be used to achieve the outcome.
 ## Dataset:
 The main object of the dataset is to predict diagnostically whether a person has diabetes or not based on certain measurements. <br/>
 The dataset contains different medical predictor variables and one target variable which is 'Outcome'. The features include Pregnancy, insulin, Glucose, Blood Pressure, Skin Thickness, BMI and Diabetes Pedigree Function. The dataset contains data from only female candidates.</br></br>
@@ -18,7 +19,7 @@ Next, we split the dataset as training and testing sets using <b>train_test_spli
 <b>5. Building the model:</b></br>
 We used <b>Support Vector Machine</b> to build the model. SVM is a supervised machine learning model that used classification algorithms for two-group classification problems. </br><br/>
 <b>6. Model Evaluation: </b></br>
-Accuracy Score for Trained data comes out to be: 78%<br/>
+The accuracy Score for Trained data comes out to be: 78%<br/>
 The accuracy Score for test data comes out to be: 77%<br/><br/>
 <b>7. Building a predictive model: </b></br>
 The final step is to build a system which will be able to predict using some random data as input to the created model.<br/><br/><br/><br/>
